@@ -74,9 +74,9 @@ public class LoginHttpUnit {
 		
 		// Upload one image at a time
 		//commenting it out so we can compile on Phonegap
-	/*
+	
 		SubmitButton button = null;
-		
+	/*	
 		for(String imageurl : item.imageurls) {
 			form = resp.getForms()[0];
 			ArrayList<UploadFileSpec> uploads = new ArrayList<UploadFileSpec>();
