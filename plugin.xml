@@ -16,7 +16,7 @@
     <!-- android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="CLPost">
+            <feature name="CLPostPlugin">
                 <param name="android-package" value="com.cluttr.post.CLPostPlugin"/>
             </feature>
         </config-file>
