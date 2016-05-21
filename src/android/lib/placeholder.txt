@@ -1,0 +1,2 @@
+Placeholder to create the lib folder..
+This folder will contain the lib that the plugin is dependent on
