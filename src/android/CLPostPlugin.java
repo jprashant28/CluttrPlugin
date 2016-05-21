@@ -5,8 +5,6 @@ import org.apache.cordova.CordovaPlugin;
 import org.json.JSONObject;
 import org.json.JSONArray;
 import org.json.JSONException;
-
-import org.apache.cordova.api.Plugin;
 import com.cluttr.post.LoginHttpUnit;
 
 public class CLPostPlugin extends CordovaPlugin {
