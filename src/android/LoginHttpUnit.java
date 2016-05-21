@@ -93,12 +93,12 @@ public class LoginHttpUnit {
 		}
 
 		// Done with images
-	*/
 		// No of forms increase with images
 		int form_number = item.imageurls.length + 2;
 		form = resp.getForms()[form_number];
 		button = form.getSubmitButton("go");
 		resp = form.submit(button);
+		*/
 
 		// Publish
 		form = resp.getForms()[0];
@@ -121,7 +121,7 @@ class Item {
 	//commenting the images so that it works with phongap for now.
 	public String[] imageurls = {
                                   //"http://lh3.googleusercontent.com/_zhGQqZy6xK3mzsEeqIJb-9hV7y435-VP2qJmwpyV6XAdmjfCYroKpXxO28XuzcHUtxefkkvVBJPoson7qmJgA=s1024",
-                                  //"http://img12.shop-pro.jp/PA01065/037/product/59533789.jpg?20130524194316",
-                                  //"http://vignette1.wikia.nocookie.net/pixarcars/images/6/6e/From_This_Movie_Cars.jpg/revision/latest?cb=20140206225406"
+                                  "http://img12.shop-pro.jp/PA01065/037/product/59533789.jpg?20130524194316",
+                                  "http://vignette1.wikia.nocookie.net/pixarcars/images/6/6e/From_This_Movie_Cars.jpg/revision/latest?cb=20140206225406"
 								};
 }
