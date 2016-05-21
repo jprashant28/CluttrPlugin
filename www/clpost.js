@@ -1,4 +1,4 @@
-var cluttr =  {
+var clpost =  {
     postItem: function(successCallback, errorCallback) {
         cordova.exec(
             successCallback, // success callback function
@@ -10,4 +10,4 @@ var cluttr =  {
         );
     }
 }
-module.exports = cluttr;
+module.exports = clpost;
