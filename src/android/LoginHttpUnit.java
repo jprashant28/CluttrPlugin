@@ -1,6 +1,6 @@
 package com.cluttr.post;
 
-import java.awt.image.BufferedImage;
+//import java.awt.image.BufferedImage; // not supported by phonegap
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -8,7 +8,7 @@ import java.io.InputStream;
 import java.net.URL;
 import java.util.ArrayList;
 
-import javax.imageio.ImageIO;
+//import javax.imageio.ImageIO; // not supported by phonegap
 
 import org.xml.sax.SAXException;
 
