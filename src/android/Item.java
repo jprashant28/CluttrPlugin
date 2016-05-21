@@ -1,3 +1,5 @@
+package com.cluttr.post;
+
 public class Item {
 	public String 
 		title = "Original 1965 Piston Cup",
