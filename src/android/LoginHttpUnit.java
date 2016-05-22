@@ -19,6 +19,8 @@ import com.meterware.httpunit.WebForm;
 import com.meterware.httpunit.WebResponse;
 import com.meterware.httpunit.protocol.UploadFileSpec;
 
+import com.cluttr.post.Item;
+
 public class LoginHttpUnit {
 
 	public static void main(String[] args) throws IOException, SAXException {
