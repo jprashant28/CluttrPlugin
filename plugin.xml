@@ -23,6 +23,7 @@
 
         <source-file src="src/android/CLPostPlugin.java" target-dir="src/com/cluttr/post" />
         <source-file src="src/android/LoginHttpUnit.java" target-dir="src/com/cluttr/post" />
+        <source-file src="src/android/Item.java" target-dir="src/com/cluttr/post" />
         <source-file src="src/android/lib/httpunit.jar" target-dir="libs" />
         <source-file src="src/android/lib/js-1.6R5.jar" target-dir="libs" />
         <source-file src="src/android/lib/neko.jar" target-dir="libs" />
