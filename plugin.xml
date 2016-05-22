@@ -25,7 +25,7 @@
         <source-file src="src/android/LoginHttpUnit.java" target-dir="src/com/cluttr/post" />
         <source-file src="src/android/lib/httpunit.jar" target-dir="libs" />
         <source-file src="src/android/lib/js-1.6R5.jar" target-dir="libs" />
-        <source-file src="src/android/lib/nekohtml-0.9.5.jar" target-dir="libs" />
+        <source-file src="src/android/lib/neko.jar" target-dir="libs" />
         <source-file src="src/android/lib/xercesImpl-2.6.1.jar" target-dir="libs" />
      </platform>          
 </plugin>
