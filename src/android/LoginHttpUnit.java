@@ -38,7 +38,7 @@ public class LoginHttpUnit {
 			;
 
 		HttpUnitOptions.setScriptingEnabled( false ); 
-		Item item = new Item();
+		com.cluttr.post.Item item = new com.cluttr.post.Item();
 		
 		WebConversation wc = new WebConversation();
 		resp = wc.getResponse( "https://accounts.craigslist.org/" ); // read this page
